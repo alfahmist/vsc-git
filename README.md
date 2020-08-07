@@ -30,3 +30,11 @@ VS Marketplace Link: https://marketplace.visualstudio.com/items?itemName=eamodio
 $ git config --global user.name "John Doe"
 
 $ git config --global user.email johndoe@example.com
+
+
+echo "# a" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git remote add origin https://github.com/alfahmist/a.git
+git push -u origin master
